@@ -32,7 +32,7 @@ fi
 
  echo "[✔] Instalando ...";
  echo "";
- git clone https://github.com/Manisso/Crips.git /usr/share/doc/infoserver;
+ git clone https://github.com/haroldrussell/infoserver.git /usr/share/doc/infoserver;
  echo "#!/bin/bash 
  python /usr/share/doc/infoserver/infoserver.py" '${1+"$@"}' > infoserver;
  chmod +x infoserver;
