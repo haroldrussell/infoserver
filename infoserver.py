@@ -69,7 +69,7 @@ def  select():
     elif choice == 0:
 	  os.system("clear")
 	  print("This tool is only available for Linux and similar systems  ")
-	  os.system("git clone https://github.com/Manisso/Crips.git")
+	  os.system("git clone https://github.com/haroldrussell/infoserver.git")
 	  os.system("cd Crips && sudo bash ./update.sh")
 	  os.system("crips")
     elif choice == 2:
