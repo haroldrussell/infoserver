@@ -52,7 +52,7 @@ def quit():
            
 def  select():
   try:
-    choice = input("Crips~# ")
+    choice = input("InfoServer~# ")
     if choice == 1:
       d3 = raw_input('Enter IP Or Domain : ')
       os.system("clear")
